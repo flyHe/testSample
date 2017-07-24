@@ -1,0 +1,16 @@
+{
+  "name": "testSample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "NYC_CWD=. nyc mocha test.js"
+  },
+  "engines": {
+    "node": "^6.x"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "nyc": "^11.0.3"
+  }
+}

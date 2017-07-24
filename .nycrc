@@ -1,0 +1,14 @@
+{
+  "checkCoverage": false,
+  "include": [
+    "app.js"
+  ],
+  "reportDir": "./reports",
+  "reporter": [
+    "cobertura",
+    "lcov",
+    "text"
+  ],
+  "cache": false,
+  "all": true
+}
